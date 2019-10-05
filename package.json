@@ -1,0 +1,15 @@
+{
+  "name": "newegg-smtp-server",
+  "version": "1.0.0",
+  "description": "a smtp smtp server for send mail message.",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "node server.js",
+    "start": "nodemon --ignore node_modules -e js -w ./ -x npm run start-server"
+  },
+  "author": "Jerry.X.Wang",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
